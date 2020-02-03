@@ -1,0 +1,196 @@
+/*Color scheme is:
+#ABD186 green
+#ACCBDA blue
+#F6EFCC beige
+#BD5348 red
+#48adaa seafoam
+#586C77 sho's eyes
+
+*/
+
+body {
+  background-color: #fdfbf5;
+}
+
+a {
+  color: #000;
+}
+
+.col1 {
+  background-color: #ABD186;
+}
+
+.col2 {
+  background-color: #ACCBDA;
+}
+
+.col3 {
+  background-color: #F6EFCC;
+}
+
+.col4 {
+  background-color: #BD5348;
+}
+
+.col5 {
+  background-color: #48adaa;
+}
+
+.col6 {
+  background-color: #586C77;
+}
+
+.container {
+
+}
+
+
+.navbar {
+  display: flex;
+  background-color: #fdfbf5;
+  color: #000;
+  border-bottom: 5px solid #000;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.navbar-subtitle {
+  font-size: 20px;
+}
+
+.welcome-text {
+    font-size: 20px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.row {
+  background-color: #fdfbf5;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.col-md-4 {
+  border: 1px solid #000;
+  padding: 20px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.col-md-4 p {
+  font-size: 20px;
+}
+
+.collapse {
+  flex-grow: 0;
+}
+
+.col-md-4 h2 {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.row-white .col-md-4 {
+  color: #fff;
+}
+
+.row-white .col-md-4 h2 {
+  border-bottom: 2px solid #fff;
+}
+
+footer {
+  background-color: #fdfbf5;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.social-media .fa {
+  font-size: 64px;
+}
+
+.social-media li {
+    margin-right: 15px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .col-md-4 {
+    flex: 0 0 auto;
+    max-width: none;
+  }
+
+  .col-md-4 p {
+    font-size: 16px;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-subtitle {
+    font-size: 30px;
+  }
+
+  .welcome-text {
+      font-size: 16px;
+
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  footer {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .col-md-4 {
+    width: 320px;
+    max-width: 320px;
+    margin-bottom: 0px;
+  }
+
+  .row {
+      margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 1199px) {
+
+    .col-md-4 {
+      width: 350px;
+      max-width: 350px;
+    }
+  }
+
+@media (max-width: 1199px) {
+
+    .container {
+      max-width: 100%;
+    }
+  }
